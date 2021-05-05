@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moslem Azad Portfolio</title>
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
     <section class="hero-section">
@@ -13,71 +14,114 @@
             <div class="hero-image-container">
                 <img src="./assets/images/portrait3.svg">
             </div>
-            <span class="hero-span">I am</span>
-            <h1>{Shahin}</h1>
-            <span class="hero-span" style="margin-bottom:1.5em;">full_stack_developer</span>
-            <a href="#" class="btn t">./get_to_know_me</a>
-            <ul class="mobile-social">
-                <li><img style="transform: scale(1.4);" src="assets/images/twitter_icon.svg" alt="twitter-cta"></li>
-                <li><img src="./assets/images/youtube_icon.svg" alt="twitter-cta"></li>
-                <li><img src="./assets/images/github_icon.svg" alt="twitter-cta"></li>
+            <div class="left-container">
+                <span class="hero-span">I am</span>
+                <h1>{Shahin}<span style="font-size: 0.7em;color:var(--white1);"> ,</span></h1>
+                <span class="hero-span fsd-span" style="margin-bottom:1.5em;">full_stack_developer</span>
+                <a href="#" class="btn t">./get_to_know_me</a>
+                
+            </div>
+            <ul class="mobile-social"> 
+                <li>
+                    <a target="_blank" href="https://twitter.com/thetasmetime">
+                        <i class="fab fa-twitter"></i>
+                        <span>twitter</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.youtube.com/channel/UCwDaYpbaakiM6pplB8x_0RA">
+                        <i class="fab fa-youtube"></i>
+                        <span>youtube</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://github.com/tasmetime">
+                        <i class="fab fa-github"></i>
+                        <span>github</span>
+                    </a>
+                </li>                        
+            </ul>
+            <div id="h-sh-img-c" class="hero-shadow-image-container">
+                <img src="./assets/images/portrait3.svg">
+            </div>
+            <div class="hero-image-container-desktop">
+                <img id="h-img-c" src="./assets/images/portrait3.svg">
+            </div>
+        </div>
+    </section>
+
+    <section class="skill">
+        <div id="xp-container">
+            <h1 class="xp-title">Experienced in</h1>
+            <img src="./assets/images/Icon ionic-ios-arrow-forward.svg" alt="arrow down" class="arrow">
+            <ul class="xp-list">
+                <li><div class="capsule">C#</div></li>
+                <li><div class="capsule">Linux</div></li>
+                <li><div class="capsule">PHP</div></li>
+                <li><div class="capsule">PHP</div></li>
+                <li><div class="capsule">PHP</div></li>
+                <li><div class="capsule">ReactJs</div></li>
+            </ul>
+            <img src="./assets/images/Icon ionic-ios-arrow-forward.svg" alt="arrow" class="arrow-desktop">
+            <h1 class="xp-title-desktop">Experienced in</h1>
+        </div>
+        <div id="fm-container">
+            <h1 class="fm-title">Familiar With</h1>
+            <img src="./assets/images/Icon ionic-ios-arrow-forward.svg" alt="arrow" class=" fm-arrow">
+            <!-- <h1 class="fm-title-desktop">Familiar With</h1>
+            <img src="./assets/images/Icon ionic-ios-arrow-forward.svg" alt="arrow down" class="arrow fm-arrow-desktop"> -->
+            <ul class="fm-list">
+                <li><div class="capsule">C#</div></li>
+                <li><div class="capsule">Linux</div></li>
+                <li><div class="capsule">PHP</div></li>
+                <li><div class="capsule">IOT</div></li>
+                <li><div class="capsule">Laravel</div></li>
+                <li><div class="capsule">ReactJs</div></li>
             </ul>
         </div>
     </section>
-    <section class="skill">
-        <h1 class="xp-title">Experienced in</h1>
-        <img src="./assets/images/Icon ionic-ios-arrow-forward.svg" alt="arrow down" class="arrow">
-        <ul class="xp-list">
-            <li><div class="capsule">C#</div></li>
-            <li><div class="capsule">Linux</div></li>
-            <li><div class="capsule">PHP</div></li>
-            <li><div class="capsule">PHP</div></li>
-            <li><div class="capsule">PHP</div></li>
-            <li><div class="capsule">ReactJs</div></li>
-        </ul>
-        <h1 class="fm-title">Familiar With</h1>
-        <img src="./assets/images/Icon ionic-ios-arrow-forward.svg" alt="arrow down" class="arrow">
-        <ul class="fm-list">
-            <li><div class="capsule">C#</div></li>
-            <li><div class="capsule">Linux</div></li>
-            <li><div class="capsule">PHP</div></li>
-            <li><div class="capsule">ReactJs</div></li>
-            <li><div class="capsule">ReactJs</div></li>
-        </ul>
-    </section>
+
     <section class="projects">
        
         <div class="pr-bg">
             <img src="./assets/images/vs code.svg" alt="projects background image">
         </div>
-        <div class="pr-grid">
-            <h1>./projects</h1>
-            <div class="pr-item">
-                <img src="./assets/images/admin-ajax.svg" alt="project item image">
-                <h3>AkSeller</h3>
-            </div>
-            <div class="pr-item">
-                <img src="./assets/images/admin-ajax.svg" alt="project item image">
-                <h3>AkSeller</h3>
-            </div>
-            <div class="pr-item">
-                <img src="./assets/images/admin-ajax.svg" alt="project item image">
-                <h3>AkSeller</h3>
-            </div>
-            <div class="pr-item">
-                <img src="./assets/images/admin-ajax.svg" alt="project item image">
-                <h3>AkSeller</h3>
-            </div>
-            <div class="pr-item">
-                <img src="./assets/images/admin-ajax.svg" alt="project item image">
-                <h3>AkSeller</h3>
-            </div>
-            <div class="pr-item">
-                <img src="./assets/images/admin-ajax.svg" alt="project item image">
-                <h3>AkSeller</h3>
+        <div class="dekstop-blur-bg"></div>
+        <div class="desktop-pr-vs-image-container">
+            <img class="dekstop-pr-vs-image-sh" src="./assets/images/vs code.svg" alt="projects background image">
+            <img class="dekstop-pr-vs-image" src="./assets/images/vs code.svg" alt="projects background image">
+        </div>
+        <div class="pr-grid-container">
+            <div class="pr-grid">
+                <h1>./projects</h1>
+                <div class="pr-item">
+                    <img src="./assets/images/admin-ajax.svg" alt="project item image">
+                    <h3>AkSeller</h3>
+                </div>
+                <div class="pr-item">
+                    <img src="./assets/images/admin-ajax.svg" alt="project item image">
+                    <h3>AkSeller</h3>
+                </div>
+                <div class="pr-item">
+                    <img src="./assets/images/admin-ajax.svg" alt="project item image">
+                    <h3>AkSeller</h3>
+                </div>
+                <div class="pr-item">
+                    <img src="./assets/images/admin-ajax.svg" alt="project item image">
+                    <h3>AkSeller</h3>
+                </div>
+                <div class="pr-item">
+                    <img src="./assets/images/admin-ajax.svg" alt="project item image">
+                    <h3>AkSeller</h3>
+                </div>
+                <div class="pr-item">
+                    <img src="./assets/images/admin-ajax.svg" alt="project item image">
+                    <h3>AkSeller</h3>
+                </div>
             </div>
         </div>
     </section>
+
     <section class="contact">
         <h1>./contact</h1>
         <form action="#">
@@ -98,8 +142,30 @@
             </div>
         </form>
     </section>
+
     <footer>
         <small>&copy; Moslem Azad 2021, All rights reserved</small>
+        <ul> 
+            <li>
+                <a target="_blank" href="#" >
+                    <i class="fab fa-twitter"></i>
+                    <span>twitter</span>
+                </a>
+            </li>
+            <li>
+                <a targer="_blank" href="#">
+                    <i class="fab fa-youtube"></i>
+                    <span>youtube</span>
+                </a>
+            </li>
+            <li>
+                <a targer="_blank" href="#">
+                    <i class="fab fa-github"></i>
+                    <span>github</span>
+                </a>
+            </li>                        
+        </ul>
     </footer>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
