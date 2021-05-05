@@ -1,0 +1,15 @@
+{
+    "name": "m-azad portfolio site",
+    "description": "This is my first try at ui design and fron-end devlopment using html, css, javascript",
+    "keywords": [
+      "productivity",
+      "HTML5",
+      "scalpel"
+    ],
+    "repository": "https://github.com/TasmeTime/m-azad_portfolio_ui",
+    "buildpacks": [
+      {
+        "url": "https://github.com/heroku/heroku-buildpack-php"
+      }
+    ]
+  }
